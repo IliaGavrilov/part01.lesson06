@@ -43,7 +43,8 @@ public class FileProcessingClass implements FileProcessingInterface {
 
     /* Метод сохранения списка слов в файл-результат */
     public void writeFile() throws IOException {
-        FileWriter writer = new FileWriter("C:\\Users\\Gavrilov\\IdeaProjects\\part01.lesson06\\src\\output.txt");
+        FileWriter writer = new FileWriter("C:\\Users\\Gavrilov\\IdeaProjects\\part01.lesson06\\src\\part01\\lesson06\\task01\\output.txt");
+        //"C:\\Users\\Gavrilov\\IdeaProjects\\part01.lesson06\\src\\part01\\lesson06\\task01\\FileToRead.txt"
         int size = wordsArray.size();
         int counter = 0;
         for (int i=0;i<size;i++) {
