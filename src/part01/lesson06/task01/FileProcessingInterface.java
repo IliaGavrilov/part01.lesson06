@@ -1,3 +1,5 @@
+package part01.lesson06.task01;
+
 import java.io.IOException;
 
 /* Создание интерфейса для учебных целей */

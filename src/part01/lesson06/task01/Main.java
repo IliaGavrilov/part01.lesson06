@@ -1,3 +1,5 @@
+package part01.lesson06.task01;
+
 import java.io.File;
 
 public class Main {
