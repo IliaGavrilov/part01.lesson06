@@ -1,4 +1,4 @@
-package part01.lesson06.task01;
+package task01;
 
 import java.io.IOException;
 

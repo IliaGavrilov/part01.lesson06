@@ -1,4 +1,4 @@
-package part01.lesson06.task01;
+package task01;
 
 import java.io.File;
 
@@ -6,7 +6,8 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         /* Открытие файла */
-        File file = new File("C:\\Users\\Gavrilov\\IdeaProjects\\part01.lesson06\\src\\part01\\lesson06\\task01\\FileToRead.txt");
+        //File file = new File("C:\\Users\\Gavrilov\\IdeaProjects\\part01.lesson06\\src\\part01\\lesson06\\task01\\FileToRead.txt");
+        File file = new File("C:\\Users\\Gavrilov\\IdeaProjects\\part01.lesson06\\src\\task01\\FileToRead.txt");
 
         /* Инстанцирование объекта класса FileProcessingClass и передача в конструктор файла */
         FileProcessingClass processingFile = new FileProcessingClass(file);
