@@ -54,11 +54,9 @@ public class FilesProcessingClass {
             if (probsGenerator(givenProb)) {
                 String x = words.get(rand.nextInt(words.size()));
                 //System.out.println("Слово: " + x + " из массива words");
-                //System.out.println("Из предыдущего предложения: "+ previousSentence);
                 sentenceGenerator(n1);
                 String newSentence = previousSentence.substring(0, previousSentence.length() - 2) + " " + x + sentenceEnd.charAt(rand.nextInt(sentenceEnd.length())) + " ";
                 paragraph = paragraph + newSentence;
-                //System.out.println("Попало в предложение " + previousSentence);
                 //System.out.println("Попало в предложение: " + newSentence);
                 //System.out.println("Вероятность попадания задана как " + givenProb + "\n");
                 i++;
