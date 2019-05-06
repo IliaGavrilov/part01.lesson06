@@ -101,7 +101,7 @@ public class FilesProcessingClass {
         }
     }
 
-    /* Вспомогательный метод для сериализации сохранения файлов */
+    /* Вспомогательный метод для сохранения файлов */
     public FileOutputStream serialisation(String path, int i) {
         try {
             multipleFos.add(new FileOutputStream(path + "fileNumber" + (i+1) + ".txt"));
